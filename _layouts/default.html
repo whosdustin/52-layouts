@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
 	{% include head.html %}
-	<body>
+	<body class=" {{ page.number }} ">
 
-		<main role="main" class="main__container">
-			{{ content }}
-		</main>
+		{{ content }}
 
 		<!-- <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script> -->
 	</body>

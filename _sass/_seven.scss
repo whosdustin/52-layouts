@@ -1,0 +1,51 @@
+.seven {
+
+	header {
+		position: relative;
+		display: flex;
+		justify-content: flex-start;
+		height: 640px;
+		background-position: top left;
+		background: url('../images/charles_king_1100.jpg') no-repeat;
+		background-color: #fff;
+		background-blend-mode: luminosity;
+		&::after {
+			position: absolute;
+			content: '';
+			top: 0;
+			right: 0;
+			width: 55%;
+			height: 640px;
+			background-color: #0077C0;
+			mix-blend-mode: multiply;
+		}
+		.mask {
+			width: 45%;
+			overflow: hidden;
+		}
+		.overlay {
+			display: flex;
+			align-items: flex-end;
+			width: 55%;
+			height: 640px;
+			z-index: 1;
+			h1 {
+				padding: 0 8%;
+				color: #fff;
+				font-size: 80px;
+				span {
+					display: block;
+					margin: 0 20% 20px 0;
+					font-size: 16px;
+					border-bottom: solid 1px #fff;
+				}
+			}
+		}
+	}
+
+	footer {
+		height: 24px;
+		background: url('../images/bkg-footer-7.jpg') repeat-x;
+	}
+
+}
