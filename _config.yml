@@ -1,0 +1,21 @@
+title: 52 Layouts
+timezone: America/New_York
+collections:
+  pages:
+    title: Pages
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+    permalink: /:path/
+email: dustin@delatore.me
+description: > # A development excerise with the help of Kyle Hyaims designs.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://example.com" # the base hostname & protocol for your site
+twitter_username: whos_dustin
+github_username:  whosdustin
+# Build settings
+markdown: kramdown
